@@ -1,0 +1,24 @@
+{
+  "name": "drift-stats-app",
+  "version": "1.0.0",
+  "description": "Drifto statistikos projektas",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --open",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justinas Zailskas",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
