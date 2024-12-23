@@ -1,7 +1,7 @@
 {
-  "name": "drift-stats-app",
+  "name": "drift-stats-cms",
   "version": "1.0.0",
-  "description": "Drifto statistikos projektas. Naudotojo dalis.",
+  "description": "Drifto statistikos projekto turinio valdymo dalis.",
   "main": "index.js",
   "scripts": {
     "serve": "webpack-dev-server --open",
@@ -13,12 +13,12 @@
   "devDependencies": {
     "css-loader": "^7.1.2",
     "node-sass": "^9.0.0",
-    "sass-loader": "^16.0.3",
+    "sass-loader": "^16.0.4",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.6.3",
-    "webpack": "^5.96.1",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.1.0"
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }
